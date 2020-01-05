@@ -1,0 +1,16 @@
+<root>
+	<hlr>
+		<username>hlrbilling</username>
+		<pwd>Passwd321</pwd>
+		<ip>10.1.5.88</ip>
+		<port>7778</port>
+	</hlr>	
+	<invoice>
+		<username>contour</username>
+		<pwd>contour7w</pwd>
+		<sid>BER1</sid>
+	</invoice>
+	<log>
+		<logFilePath>d:\Dropbox\Programming\NetBeansProjects\NetBeansProjects\HLR-Billing-Collation\logFile.txt</logFilePath>
+	</log>
+</root>

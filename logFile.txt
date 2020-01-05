@@ -1,0 +1,192 @@
+26.25.2015 04:25:21 : ORA-00920: неверен реляционный оператор
+
+23.36.2015 11:36:30 : �������� ����������
+26.35.2015 05:35:06 : null
+26.40.2015 05:40:54 : The url cannot be null
+26.43.2015 05:43:36 : The url cannot be null
+26.46.2015 05:46:34 : The url cannot be null
+26.46.2015 05:46:52 : The url cannot be null
+26.55.2015 05:55:31 : ORA-00936: отсутствует выражение
+
+26.59.2015 05:59:36 : select count(*)
+  from subs_history sh
+  join phone p
+    on sh.phone_id = p.phone_id
+   and sysdate between sh.stime and sh.etime - 1 / 86400
+   and sh.stat_id in (1, 2, 4)
+  join subs_usi_history suh
+    on sh.subs_id = suh.subs_id
+   and sysdate between suh.stime and suh.etime - 1 / 86400
+  join client_history ch on sh.clnt_id=ch.clnt_id and to_date('26.10.2015 17:59:36','dd.mm.yyyy hh24:mi:ss') between ch.stime and ch.etime - 1 / 86400 and ch.ct_id in (60)
+  join usi u
+    on suh.usi_id = u.usi_id
+   and u.switch_id >= 132 
+26.00.2015 06:00:08 : select count(*)
+  from subs_history sh
+  join phone p
+    on sh.phone_id = p.phone_id
+   and sysdate between sh.stime and sh.etime - 1 / 86400
+   and sh.stat_id in (1, 2, 4)
+  join subs_usi_history suh
+    on sh.subs_id = suh.subs_id
+   and sysdate between suh.stime and suh.etime - 1 / 86400
+  join client_history ch on sh.clnt_id=ch.clnt_id and to_date('26.10.2015 18:00:08','dd.mm.yyyy hh24:mi:ss') between ch.stime and ch.etime - 1 / 86400 and ch.ct_id in (60)
+  join usi u
+    on suh.usi_id = u.usi_id
+   and u.switch_id >= 132 and p.msisdn in ('7009999199')
+26.02.2015 06:02:21 : select count(*)
+  from subs_history sh
+  join phone p
+    on sh.phone_id = p.phone_id
+   and sysdate between sh.stime and sh.etime - 1 / 86400
+   and sh.stat_id in (1, 2, 4)
+  join subs_usi_history suh
+    on sh.subs_id = suh.subs_id
+   and sysdate between suh.stime and suh.etime - 1 / 86400
+  join client_history ch on sh.clnt_id=ch.clnt_id and to_date('26.10.2015 18:02:21','dd.mm.yyyy hh24:mi:ss') between ch.stime and ch.etime - 1 / 86400 
+  join usi u
+    on suh.usi_id = u.usi_id
+   and u.switch_id >= 132 and p.msisdn in ('7009999199')
+26.02.2015 06:02:45 : select count(*)
+  from subs_history sh
+  join phone p
+    on sh.phone_id = p.phone_id
+   and sysdate between sh.stime and sh.etime - 1 / 86400
+   and sh.stat_id in (1, 2, 4)
+  join subs_usi_history suh
+    on sh.subs_id = suh.subs_id
+   and sysdate between suh.stime and suh.etime - 1 / 86400
+  join client_history ch on sh.clnt_id=ch.clnt_id and to_date('26.10.2015 18:02:45','dd.mm.yyyy hh24:mi:ss') between ch.stime and ch.etime - 1 / 86400 
+  join usi u
+    on suh.usi_id = u.usi_id
+   and u.switch_id >= 132 and p.msisdn in ('7009999199')
+26.06.2015 06:06:40 : select count(*)
+  from subs_history sh
+  join phone p
+    on sh.phone_id = p.phone_id
+   and sysdate between sh.stime and sh.etime - 1 / 86400
+   and sh.stat_id in (1, 2, 4)
+  join subs_usi_history suh
+    on sh.subs_id = suh.subs_id
+   and sysdate between suh.stime and suh.etime - 1 / 86400
+  join client_history ch on sh.clnt_id=ch.clnt_id and to_date('26.10.2015 18:06:39','dd.mm.yyyy hh24:mi:ss') between ch.stime and ch.etime - 1 / 86400 
+  join usi u
+    on suh.usi_id = u.usi_id
+   and u.switch_id >= 132 and p.msisdn in ('7009999199')
+26.08.2015 06:08:18 : select count(*)
+  from subs_history sh
+  join phone p
+    on sh.phone_id = p.phone_id
+   and sysdate between sh.stime and sh.etime - 1 / 86400
+   and sh.stat_id in (1, 2, 4)
+  join subs_usi_history suh
+    on sh.subs_id = suh.subs_id
+   and sysdate between suh.stime and suh.etime - 1 / 86400
+  join client_history ch on sh.clnt_id=ch.clnt_id and to_date('26.10.2015 18:08:17','dd.mm.yyyy hh24:mi:ss') between ch.stime and ch.etime - 1 / 86400 
+  join usi u
+    on suh.usi_id = u.usi_id
+   and u.switch_id >= 132 and p.msisdn in ('7009999199')
+26.09.2015 06:09:03 : select count(*)
+  from subs_history sh
+  join phone p
+    on sh.phone_id = p.phone_id
+   and sysdate between sh.stime and sh.etime - 1 / 86400
+   and sh.stat_id in (1, 2, 4)
+  join subs_usi_history suh
+    on sh.subs_id = suh.subs_id
+   and sysdate between suh.stime and suh.etime - 1 / 86400
+  join client_history ch on sh.clnt_id=ch.clnt_id and to_date('26.10.2015 18:09:02','dd.mm.yyyy hh24:mi:ss') between ch.stime and ch.etime - 1 / 86400 
+  join usi u
+    on suh.usi_id = u.usi_id
+   and u.switch_id >= 132 and p.msisdn in ('7009999199')
+26.11.2015 06:11:45 : select count(*)
+  from subs_history sh
+  join phone p
+    on sh.phone_id = p.phone_id
+   and sysdate between sh.stime and sh.etime - 1 / 86400
+   and sh.stat_id in (1, 2, 4)
+  join subs_usi_history suh
+    on sh.subs_id = suh.subs_id
+   and sysdate between suh.stime and suh.etime - 1 / 86400
+  join client_history ch on sh.clnt_id=ch.clnt_id and to_date('26.10.2015 18:11:45','dd.mm.yyyy hh24:mi:ss') between ch.stime and ch.etime - 1 / 86400 
+  join usi u
+    on suh.usi_id = u.usi_id
+   and u.switch_id >= 132 and p.msisdn in ('7009999199')
+26.13.2015 06:13:13 : select count(*)
+  from subs_history sh
+  join phone p
+    on sh.phone_id = p.phone_id
+   and sysdate between sh.stime and sh.etime - 1 / 86400
+   and sh.stat_id in (1, 2, 4)
+  join subs_usi_history suh
+    on sh.subs_id = suh.subs_id
+   and sysdate between suh.stime and suh.etime - 1 / 86400
+  join client_history ch on sh.clnt_id=ch.clnt_id and to_date('26.10.2015 18:13:13','dd.mm.yyyy hh24:mi:ss') between ch.stime and ch.etime - 1 / 86400 
+  join usi u
+    on suh.usi_id = u.usi_id
+   and u.switch_id >= 132 and p.msisdn in ('7009999199')
+26.14.2015 06:14:04 : select count(*)
+  from subs_history sh
+  join phone p
+    on sh.phone_id = p.phone_id
+   and sysdate between sh.stime and sh.etime - 1 / 86400
+   and sh.stat_id in (1, 2, 4)
+  join subs_usi_history suh
+    on sh.subs_id = suh.subs_id
+   and sysdate between suh.stime and suh.etime - 1 / 86400
+  join client_history ch on sh.clnt_id=ch.clnt_id and to_date('26.10.2015 18:14:04','dd.mm.yyyy hh24:mi:ss') between ch.stime and ch.etime - 1 / 86400 
+  join usi u
+    on suh.usi_id = u.usi_id
+   and u.switch_id >= 132 and p.msisdn in ('7009999199')
+12.46.2016 05:46:03 : select count(*)
+  from subs_history sh
+  join phone p
+    on sh.phone_id = p.phone_id
+   and sysdate between sh.stime and sh.etime - 1 / 86400
+   and sh.stat_id in (1, 2, 4)
+  join subs_usi_history suh
+    on sh.subs_id = suh.subs_id
+   and sysdate between suh.stime and suh.etime - 1 / 86400
+  join client_history ch on sh.clnt_id=ch.clnt_id and to_date('12.01.2016 17:46:02','dd.mm.yyyy hh24:mi:ss') between ch.stime and ch.etime - 1 / 86400 
+  join usi u
+    on suh.usi_id = u.usi_id
+   and u.switch_id >= 132 and p.msisdn in ('77058623870')
+12.46.2016 05:46:06 : select count(*)
+  from subs_history sh
+  join phone p
+    on sh.phone_id = p.phone_id
+   and sysdate between sh.stime and sh.etime - 1 / 86400
+   and sh.stat_id in (1, 2, 4)
+  join subs_usi_history suh
+    on sh.subs_id = suh.subs_id
+   and sysdate between suh.stime and suh.etime - 1 / 86400
+  join client_history ch on sh.clnt_id=ch.clnt_id and to_date('12.01.2016 17:46:06','dd.mm.yyyy hh24:mi:ss') between ch.stime and ch.etime - 1 / 86400 
+  join usi u
+    on suh.usi_id = u.usi_id
+   and u.switch_id >= 132 and p.msisdn in ('77058623870')
+12.46.2016 05:46:08 : select count(*)
+  from subs_history sh
+  join phone p
+    on sh.phone_id = p.phone_id
+   and sysdate between sh.stime and sh.etime - 1 / 86400
+   and sh.stat_id in (1, 2, 4)
+  join subs_usi_history suh
+    on sh.subs_id = suh.subs_id
+   and sysdate between suh.stime and suh.etime - 1 / 86400
+  join client_history ch on sh.clnt_id=ch.clnt_id and to_date('12.01.2016 17:46:08','dd.mm.yyyy hh24:mi:ss') between ch.stime and ch.etime - 1 / 86400 
+  join usi u
+    on suh.usi_id = u.usi_id
+   and u.switch_id >= 132 and p.msisdn in ('77058623870')
+14.40.2016 03:40:23 : select count(*)
+  from subs_history sh
+  join phone p
+    on sh.phone_id = p.phone_id
+   and sysdate between sh.stime and sh.etime - 1 / 86400
+   and sh.stat_id in (1, 2, 4)
+  join subs_usi_history suh
+    on sh.subs_id = suh.subs_id
+   and sysdate between suh.stime and suh.etime - 1 / 86400
+  join client_history ch on sh.clnt_id=ch.clnt_id and to_date('14.01.2016 15:40:22','dd.mm.yyyy hh24:mi:ss') between ch.stime and ch.etime - 1 / 86400 
+  join usi u
+    on suh.usi_id = u.usi_id
+   and u.switch_id >= 132 
